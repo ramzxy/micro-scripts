@@ -11,12 +11,7 @@ To get your calendar data:
    ```
    https://axis.navitas.com/apps/timetable/timetable?start=2025-03-30T00%3A00%3A00&end=2025-05-11T00%3A00%3A00
    ```
-3. Open your browser's developer tools (F12 or right-click > Inspect)
-4. Go to the Network tab in developer tools
-5. Refresh the page
-6. Look for a network request with JSON data (it may be called "timetable" or have a similar name)
-7. Copy the JSON response and save it to `start.json` file
-8. Run this script to convert it to a calendar file
+3. Just copy the plain text results and put them in start.json
 
 ## Usage
 
